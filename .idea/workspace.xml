@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a51bfb8-c6a3-418c-a13a-c195aa0ca531" name="Changes" comment="Estructura inicial del proyecto">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hackathon/agenda/Agenda.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hackathon/agenda/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hackathon/agenda/Main.java" afterDir="false" />
+    <list default="true" id="9a51bfb8-c6a3-418c-a13a-c195aa0ca531" name="Changes" comment="arreglo de carpetas">
       <change beforePath="$PROJECT_DIR$/src/com/hackathon/agenda/menu/MenuConsola.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hackathon/agenda/menu/MenuConsola.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hackathon/agenda/servicios/Agenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hackathon/agenda/servicios/Agenda.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,5 +121,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="arreglo de carpetas" />
+    <option name="LAST_COMMIT_MESSAGE" value="arreglo de carpetas" />
   </component>
 </project>

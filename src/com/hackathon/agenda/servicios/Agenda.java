@@ -6,6 +6,37 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class Agenda {
+    // =====================================================
+    // ESTRUCTURA DE LA AGENDA
+    // Aportación: Ximena
+    // Se agregan los atributos necesarios para manejar la
+    // capacidad de la agenda y permitir comprobar si está llena.
+    // =====================================================
+
+    private Contacto[] contactos;
+    private int contador;
+
+
+    // =====================================================
+    // CONSTRUCTORES
+    // Permite crear una agenda con capacidad personalizada
+    // o utilizar el tamaño por defecto solicitado (10).
+    // =====================================================
+
+    // Constructor por defecto
+    public Agenda() {
+        this.contactos = new Contacto[10];
+        this.contador = 0;
+    }
+
+    // Constructor con tamaño personalizado
+    public Agenda(int capacidad) {
+        this.contactos = new Contacto[capacidad];
+        this.contador = 0;
+    }
+
+
+
     //      PARTE DEL PROYECTO (MAFER)
 
     public void listarContactos() {
@@ -44,7 +75,7 @@ public class Agenda {
         boolean contactoEncontrado = false;
 
         // 2. OOP (Colecciones/Arreglos) y Legibilidad: Uso de un for-each claro
-        for (Contacto contactoActual : this.listaContactos) {
+        for (Contacto contactoActual : this.contactos) {
 
             // Validamos que el espacio no esté vacío y comparamos ignorando mayúsculas/minúsculas
             if (contactoActual != null && contactoActual.getNombre().equalsIgnoreCase(nombre.trim())) {

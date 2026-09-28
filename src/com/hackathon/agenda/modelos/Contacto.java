@@ -41,10 +41,6 @@ public class Contacto {
 
 
     }
-
-}
-public class Contacto extends Persona {
-
     private String telefono;
 // ==== Constructor
     // crea un contacto con nombre, apellido y telefono
@@ -77,4 +73,5 @@ public class Contacto extends Persona {
     public String toString() {
         return super.toString() + " - " + telefono;
     }
+
 }

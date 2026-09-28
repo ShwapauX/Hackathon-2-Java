@@ -54,7 +54,7 @@ public class MenuConsola {
                     System.out.print("Introduce el apellido: ");
                     String apellidoBuscar = scanner.nextLine();
 
-                    // Aquí conectarías con tu método (Chris):
+                    // Aquí se conectara con el método (Chris):
                     // agenda.buscarContacto(nombreBuscar, apellidoBuscar);
                     break;
 

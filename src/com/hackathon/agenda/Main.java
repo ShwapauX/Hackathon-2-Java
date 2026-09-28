@@ -1,4 +1,6 @@
-package com.hackathon.agenda;
+import com.hackathon.agenda.menu.MenuConsola;
+import com.hackathon.agenda.servicios.Agenda;
+
 
 public class Main {
     public static void main(String[] args) {
@@ -13,12 +15,7 @@ public class Main {
 
         // Probamos el método
         miAgenda.listarContactos();
-    }
-}
-import com.hackathon.agenda.menu.MenuConsola;
 
-public class Main {
-    public static void main(String[] args) {
         // 1. Instanciamos el menú
         MenuConsola menu = new MenuConsola();
 

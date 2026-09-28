@@ -1,4 +1,7 @@
 package com.hackathon.agenda.menu;
+import com.hackathon.agenda.modelos.Contacto;
+import com.hackathon.agenda.servicios.AgendaService;
+
 import java.util.Scanner;
 
 public class MenuConsola {
@@ -7,6 +10,7 @@ public class MenuConsola {
         Scanner scanner = new Scanner(System.in);
 
         // Aquí se instanciaría el servicio ya sea como AgendaService agenda = new AgendaService(); o con un tamaño por defecto de 10
+        AgendaService agenda = new AgendaService();
 
         int opcion = 0;
 
@@ -43,6 +47,9 @@ public class MenuConsola {
                     String telefonoAnadir = scanner.nextLine();
 
                     // Aquí se conectara con el método de Jaz:
+                    Contacto nuevoContacto = new Contacto(nombreAnadir, apellidoAnadir, telefonoAnadir);
+                    agenda.anadirContacto(nuevoContacto);
+
                     // Contacto nuevoContacto = new Contacto(nombreAnadir, apellidoAnadir, telefonoAnadir);
                     // agenda.anadirContacto(nuevoContacto);
                     break;

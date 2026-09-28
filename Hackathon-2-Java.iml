@@ -3,11 +3,7 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-<<<<<<< HEAD
-      <sourceFolder url="file://$MODULE_DIR$/Hackathon-2-Java/src" isTestSource="false" />
-=======
-      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
->>>>>>> d175907a7eca26157b14e888aa78b3b3128a6119
+      <sourceFolder url="file://$MODULE_DIR$/src/com/hackathon/agenda" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

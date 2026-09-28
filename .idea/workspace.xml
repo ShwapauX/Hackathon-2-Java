@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd7a7455-659b-4944-a853-d1c76105304f" name="Changes" comment="Arreglo de archivos">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8057d962-7565-47a9-b29c-b5e6bb8f9a43" name="Changes" comment="cambios por intellIJ">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/hackathon/agenda/menu/MenuConsola.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hackathon/agenda/menu/MenuConsola.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/hackathon/agenda/modelos/Contacto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hackathon/agenda/modelos/Contacto.java" afterDir="false" />
     </list>
@@ -11,6 +11,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -18,29 +25,23 @@
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 6
 }</component>
-  <component name="ProjectId" id="3JyN2nA9moL8hhmzZtO1hc4Vrff" />
+  <component name="ProjectId" id="3JyZAT5xqXr2UxeRzEeTzDPpkdJ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Main.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Merging ChristopherBM",
     "kotlin-language-version-configured": "true",
-    "node.js.detected.package.jshint": "true",
-    "node.js.selected.package.jshint": "",
+    "last_opened_file_path": "F:/cohorte71Gen/IDEAproject-Gen/Hackathon-2-Java",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -53,11 +54,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fd7a7455-659b-4944-a853-d1c76105304f" name="Changes" comment="" />
-      <created>1790629145923</created>
+      <changelist id="8057d962-7565-47a9-b29c-b5e6bb8f9a43" name="Changes" comment="" />
+      <created>1790635126359</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1790629145923</updated>
+      <updated>1790635126359</updated>
     </task>
     <servers />
   </component>
@@ -65,11 +66,7 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Arreglo de archivos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Arreglo de archivos" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
+    <MESSAGE value="cambios por intellIJ" />
+    <option name="LAST_COMMIT_MESSAGE" value="cambios por intellIJ" />
   </component>
 </project>

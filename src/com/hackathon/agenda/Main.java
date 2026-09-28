@@ -1,6 +1,7 @@
+package com.hackathon.agenda; //j
 import com.hackathon.agenda.menu.MenuConsola;
 import com.hackathon.agenda.servicios.Agenda;
-
+import com.hackathon.agenda.modelos.Contacto;//j
 public class Main {
     public static void main(String[] args) {
         // Creamos una agenda de 10 espacios

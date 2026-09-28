@@ -140,4 +140,17 @@ public class Agenda {
                         () -> System.out.println("No se ha encontrado el contacto."));
     }
 
+    /**
+     * Retorna el número de posiciones disponibles.
+     */
+    public int espacioLibres() {
+        int libres = 0;
+        for (Contacto contacto : contactos) {
+            if (contacto == null) {
+                libres++;
+            }
+        }
+        return libres;
+    }
+
 }

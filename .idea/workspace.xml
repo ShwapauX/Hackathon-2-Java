@@ -1,23 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd7a7455-659b-4944-a853-d1c76105304f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Hackathon-2-Java.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/hackaton-2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hackathon-2-Java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hackathon-2-Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Hackathon-2-Java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hackathon.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hackathon/agenda/Agenda.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hackathon/agenda/Contacto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hackathon/agenda/EspaciosLibres.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hackathon/agenda/EspaciosLibres.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hackathon/agenda/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hackathon/agenda/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hackathon/agenda/main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hackathon/agenda/modelos/Contacto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hackathon/agenda/modelos/Contacto.java" afterDir="false" />
+    <list default="true" id="fd7a7455-659b-4944-a853-d1c76105304f" name="Changes" comment="Arreglo de archivos">
+      <change beforePath="$PROJECT_DIR$/src/com/hackathon/agenda/EspaciosLibres.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/hackathon/agenda/servicios/Agenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hackathon/agenda/servicios/Agenda.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +30,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "ChristopherBM",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.jshint": "true",
     "node.js.selected.package.jshint": "",
@@ -77,6 +62,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Arreglo de archivos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Arreglo de archivos" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

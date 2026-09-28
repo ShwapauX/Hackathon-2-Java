@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd7a7455-659b-4944-a853-d1c76105304f" name="Changes" comment="Arreglo de archivos">
-      <change beforePath="$PROJECT_DIR$/src/com/hackathon/agenda/EspaciosLibres.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hackathon/agenda/servicios/Agenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hackathon/agenda/servicios/Agenda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hackathon/agenda/menu/MenuConsola.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hackathon/agenda/menu/MenuConsola.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hackathon/agenda/modelos/Contacto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hackathon/agenda/modelos/Contacto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +31,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "ChristopherBM",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.jshint": "true",
     "node.js.selected.package.jshint": "",

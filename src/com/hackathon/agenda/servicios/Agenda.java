@@ -1,4 +1,4 @@
-package com.hackathon.agenda.servicios;
+package com.hackathon.agenda.servicios.Age
 import java.util.ArrayList;
 import java.util.List;
 
@@ -114,7 +114,19 @@ public class Agenda {
     //Fin Dani Chagal
 
     public boolean eliminarContacto(Contacto c) { //Codigo de Daniel Arellano
-        boolean eliminado = contactos.remove(c);
+        boolean eliminado = false;
+
+        if (c != null) {
+            for (Contacto guardado : contactos) {
+                boolean mismoNombre = guardado.getName().equalsIgnoreCase(c.getName());
+                boolean mismoApellido = guardado.getLastname().equalsIgnoreCase(c.getLastname());
+                if (mismoNombre && mismoApellido) {
+                    contactos.remove(guardado);
+                    eliminado = true;
+                    break;
+                }
+            }
+        }
 
         if (eliminado) {
             System.out.println("Contacto eliminado");
@@ -124,6 +136,9 @@ public class Agenda {
 
         return eliminado;
     }
+
+
+
     /**
      * Modifica el teléfono de un contacto existente.
      */

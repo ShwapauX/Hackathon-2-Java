@@ -65,7 +65,7 @@ public class MenuConsola {
                     System.out.print("Introduce el apellido: ");
                     String apellidoEliminar = scanner.nextLine();
 
-                    // Aquí conectarías con el método de Daniel:
+                    // Aquí se conectara con el método de Daniel:
                     // Contacto contactoAEliminar = new Contacto(nombreEliminar, apellidoEliminar, "");
                     // agenda.eliminarContacto(contactoAEliminar);
                     break;
@@ -79,19 +79,19 @@ public class MenuConsola {
                     System.out.print("Introduce el NUEVO teléfono: ");
                     String nuevoTelefono = scanner.nextLine();
 
-                    // Aquí conectarías con el método de Fer Nava:
+                    // Aquí se conectara con el método de Fer Nava:
                     // agenda.modificarTelefono(nombreModificar, apellidoModificar, nuevoTelefono);
                     break;
 
                 case 5:
                     System.out.println("\n--- LISTA DE CONTACTOS ---");
-                    // Aquí conectarías con el método de Mafer:
+                    // Aquí se conectara con el método de Mafer:
                     // agenda.listarContactos();
                     break;
 
                 case 6:
                     System.out.println("\n--- ESTADO DE LA AGENDA ---");
-                    // Aquí conectarías con los métodos de Ximena y Fer Enríquez:
+                    // Aquí conectara con los métodos de Ximena y Fer Enríquez:
                     // agenda.agendaLlena();
                     // agenda.espaciosLibres();
                     break;

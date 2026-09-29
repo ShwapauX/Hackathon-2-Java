@@ -1,4 +1,4 @@
-package modelos;
+package com.hackathon.agenda.modelos;
 
 import java.util.Objects;
 
@@ -7,6 +7,7 @@ public abstract class Persona { //abstract: solo queremos usarla como base para 
     // "final": una vez asignado en el constructor, ya no puede cambiar.
     private final String nombre;
     private final String apellido;
+    
     // ========Constructor=============
     protected Persona(String nombre, String apellido) {
         // "this.nombre" es el atributo de la clase "nombre" es el dato recibido
@@ -20,7 +21,7 @@ public abstract class Persona { //abstract: solo queremos usarla como base para 
         return nombre;
     }
 
-    /** Devuelve el nombre espacios sobrantes */
+    /** Devuelve el apellido espacios sobrantes */
     public String getApellido() {
         return apellido;
     }

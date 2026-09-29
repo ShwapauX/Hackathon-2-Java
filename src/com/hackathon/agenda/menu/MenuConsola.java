@@ -1,6 +1,7 @@
 package com.hackathon.agenda.menu;
+
 import com.hackathon.agenda.modelos.Contacto;
-import com.hackathon.agenda.servicios.AgendaService;
+import com.hackathon.agenda.servicios.Agenda;
 import java.util.Scanner;
 
 public class MenuConsola {
@@ -8,13 +9,13 @@ public class MenuConsola {
     public void iniciarMenu() {
         Scanner scanner = new Scanner(System.in);
 
-        // Aquí se instanciaría el servicio ya sea como AgendaService agenda = new AgendaService(); o con un tamaño por defecto de 10
-        AgendaService agenda = new AgendaService();
+        // Aquí se instancia el servicio ya sea con tamaño por defecto de 10
+        Agenda agenda = new Agenda();
 
         int opcion = 0;
 
         do {
-            System.out.println("       AGENDA TELEFÓNICA");
+            System.out.println("\n       AGENDA TELEFÓNICA");
             System.out.println("=================================");
             System.out.println("1. Añadir contacto");
             System.out.println("2. Buscar contacto");
@@ -48,8 +49,6 @@ public class MenuConsola {
                     // Aquí se conectara con el método de Jaz:
                     Contacto nuevoContacto = new Contacto(nombreAnadir, apellidoAnadir, telefonoAnadir);
                     agenda.anadirContacto(nuevoContacto);
-                    // Contacto nuevoContacto = new Contacto(nombreAnadir, apellidoAnadir, telefonoAnadir);
-                    // agenda.anadirContacto(nuevoContacto);
                     break;
 
                 case 2:
@@ -60,7 +59,7 @@ public class MenuConsola {
                     String apellidoBuscar = scanner.nextLine();
 
                     // Aquí se conectara con el método (Chris):
-                    // agenda.buscarContacto(nombreBuscar, apellidoBuscar);
+                    agenda.buscarContacto(nombreBuscar, apellidoBuscar);
                     break;
 
                 case 3:
@@ -71,8 +70,8 @@ public class MenuConsola {
                     String apellidoEliminar = scanner.nextLine();
 
                     // Aquí se conectara con el método de Daniel:
-                    // Contacto contactoAEliminar = new Contacto(nombreEliminar, apellidoEliminar, "");
-                    // agenda.eliminarContacto(contactoAEliminar);
+                    Contacto contactoAEliminar = new Contacto(nombreEliminar, apellidoEliminar);
+                    agenda.eliminarContacto(contactoAEliminar);
                     break;
 
                 case 4:
@@ -85,20 +84,20 @@ public class MenuConsola {
                     String nuevoTelefono = scanner.nextLine();
 
                     // Aquí se conectara con el método de Fer Nava:
-                    // agenda.modificarTelefono(nombreModificar, apellidoModificar, nuevoTelefono);
+                    agenda.modificarTelefono(nombreModificar, apellidoModificar, nuevoTelefono);
                     break;
 
                 case 5:
                     System.out.println("\n--- LISTA DE CONTACTOS ---");
                     // Aquí se conectara con el método de Mafer:
-                    // agenda.listarContactos();
+                    agenda.listarContactos();
                     break;
 
                 case 6:
                     System.out.println("\n--- ESTADO DE LA AGENDA ---");
                     // Aquí conectara con los métodos de Ximena y Fer Enríquez:
-                    // agenda.agendaLlena();
-                    // agenda.espaciosLibres();
+                    System.out.println("La agenda está " + (agenda.agendaLlena() ? "llena." : "con espacio."));
+                    System.out.println("Espacios libres: " + agenda.espaciosLibres());
                     break;
 
                 case 7:
@@ -112,5 +111,4 @@ public class MenuConsola {
 
         scanner.close();
     }
-
 }

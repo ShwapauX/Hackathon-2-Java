@@ -2,6 +2,9 @@ package com.hackathon.agenda.modelos;
 
 import java.util.Objects;
 
+// =====================================================
+// PARTE DEL PROYECTO (Jazmin Hernández)
+// =====================================================
 /** persona se identifica por nombre y apellido. */
 public abstract class Persona { //abstract: solo queremos usarla como base para otras clases.
     // "final": una vez asignado en el constructor, ya no puede cambiar.

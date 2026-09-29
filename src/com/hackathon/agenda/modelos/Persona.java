@@ -67,3 +67,6 @@ public abstract class Persona { //abstract: solo queremos usarla como base para 
         return nombre + " " + apellido;
     }
 }
+// =====================================================
+// FIN PARTE DEL PROYECTO (Jazmin Hernández)
+// =====================================================

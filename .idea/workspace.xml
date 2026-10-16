@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8057d962-7565-47a9-b29c-b5e6bb8f9a43" name="Changes" comment="agenda datos">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="8057d962-7565-47a9-b29c-b5e6bb8f9a43" name="Changes" comment="Fusion y acoplamiento de variables para alinearlos y que funcione">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/hackathon/agenda/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hackathon/agenda/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hackathon/agenda/menu/MenuConsola.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hackathon/agenda/menu/MenuConsola.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hackathon/agenda/modelos/Contacto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hackathon/agenda/modelos/Contacto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hackathon/agenda/modelos/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hackathon/agenda/modelos/Persona.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hackathon/agenda/servicios/Agenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hackathon/agenda/servicios/Agenda.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +46,7 @@
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="SharedIndexes">
